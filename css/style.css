@@ -1,0 +1,111 @@
+body{
+	
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	color: #282d33;
+	line-height: 1.8;
+	
+}
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 15px 0;
+	text-align: center;
+	font-size: 13px;
+}
+#top-header{
+	background-image:url(  "../img/1_oneintro_el porto_sunset_shutter_ss.png");
+	background-size: cover;
+	padding: 15%;
+	text-align:center;
+}
+#top-header h1{ 
+	color:#F8F0A3;
+	font-weight: 1000;
+}
+#top-header h{
+	color:#F8C2C3;
+	font-weight: 1200;
+}
+.section{ 
+	padding: 5% 0;
+}
+
+
+
+.rounded-circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: transparent;
+	display: block;
+	margin: auto;
+	color: var(--color-footer);
+	font-size: 50px;
+	text-align: center;
+}
+
+#services h4 {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	color: #30363d;
+}
+#services p{ 
+	text-align: center;
+	color: #898989;
+	font-size: 13px;
+}
+.check{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color: transparent;
+	display: block;
+	margin: auto;
+	color: #53c3c9;
+	font-size: 20px;
+	text-align: center;
+}
+#see {
+	background-color: #f7f7f7;
+	
+}
+
+#see h2 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--color-negro);
+	padding-bottom: 2%;
+	
+}
+
+#see h4 {
+	text-align: center;
+	padding-top: 15%;
+	font-size: 15px;
+	font-weight: bold;
+	color: #282d33;
+	
+}
+
+#see p {
+	text-align: center;
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 5%;
+	color: #898989;
+}
